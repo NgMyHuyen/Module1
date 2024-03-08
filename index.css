@@ -30,44 +30,55 @@ body {
 }
 
 /* thform1 or index.html */
-.a{
-    background-color:aqua
-    
-
-
+.a {
+  background-color: aqua;
 }
-.b{
-    background-color: red;
-    color: white;
-    text-align: center;
-
+.b {
+  background-color: red;
+  color: white;
+  text-align: center;
 }
-.c{
-    color: orange;
+.c {
+  color: orange;
 }
-.d{
-    color: blue;
+.d {
+  color: blue;
 }
 
-.a1{
-    background-color: rgb(250, 250, 173);
-    color: blue;
-    
+.a1 {
+  background-color: rgb(250, 250, 173);
+  color: blue;
 }
-.b1{background-color: aqua;
-    color: blue;}
-form {width: 400px;
-    margin: 20px auto;}
+.b1 {
+  background-color: aqua;
+  color: blue;
+}
+form {
+  width: 400px;
+  margin: 20px auto;
+}
 
-label{
-    /* thẻ inline không xét được witdh và height, padding, margin */
-    width: 100px;
-    display: inline-block;
+label {
+  /* thẻ inline không xét được witdh và height, padding, margin */
+  width: 100px;
+  display: inline-block;
 
-    /* giúp cho đoạn text không bị xuống dòng  */
-    white-space: nowrap;
-    margin: 10px 0px 10px 0px;
-  }
-input {background-color: white;}
+  /* giúp cho đoạn text không bị xuống dòng  */
+  white-space: nowrap;
+  margin: 10px 0px 10px 0px;
+}
+input {
+  background-color: white;
+}
 
-
+/* bt 7 ses 4  */
+.so1 {
+  background-color: rgb(176, 176, 226);
+  color: white;
+  border: none;
+  margin: 5px 25px 5px 25px;
+}
+.chu1 {
+  color: white;
+  background-color: black;
+}

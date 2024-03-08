@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 3 cách sử dụng css -->
+    <!-- CSS cho chữ: font-size: cỡ chữ, color: màu chữ, font-weight: độ dày chữ -->
+    <!-- C1: style inline -->
+    <!-- C2: style internal: dùng thẻ <style></style> -->
+    <!-- C3: style external: tạo file mới để CSS  -->
+    <!-- Độ ưu tiên của CSS -->
+    <!-- Độ ưu tiên: inline > internal > external -->
+    <h3 class="title1" id="title1">Xin chao</h3>
+    <!-- <h3 class="title1" id="title2">Xin chao</h3> -->
+
+    <header>
+      <h1 class="header">Trang web của tôi</h1>
+    </header>
+    <!--  -->
+    <nav>
+      <ul>
+        <li><a href="#">Trang chủ</a></li>
+        <li><a href="#">Giới thiệu</a></li>
+        <li><a href="#">Sản phẩm</a></li>
+        <li><a href="#">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </body>
+  <style>
+    .title1 {
+      background-color: blueviolet;
+    }
+    body {
+      font: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      color: white;
+      background-color: black;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav {
+      background-color: rgb(207, 191, 191);
+      color: black;
+      text-align: center;
+    }
+    a {
+      color: black;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    a:hover {
+      color: pink;
+      text-decoration: underline;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    h1 {
+      text-transform: uppercase;
+      /* text-transform: uppercase; : thuộc tính để viết hoa chữ */
+      /* text-transform: capitalize; */
+    }
+  </style>
+</html>
