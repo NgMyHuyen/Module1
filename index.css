@@ -54,14 +54,10 @@ body {
     color: blue;
     
 }
-.b1{
-    background-color: aqua;
-    color: blue;
-}
-form{
-    width: 400px;
-    margin: 20px auto;
-}
+.b1{background-color: aqua;
+    color: blue;}
+form {width: 400px;
+    margin: 20px auto;}
 
 label{
     /* thẻ inline không xét được witdh và height, padding, margin */
@@ -71,7 +67,7 @@ label{
     /* giúp cho đoạn text không bị xuống dòng  */
     white-space: nowrap;
     margin: 10px 0px 10px 0px;
-}
-input{
-    background-color: white;
-}
+  }
+input {background-color: white;}
+
+
