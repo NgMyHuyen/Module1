@@ -1,3 +1,31 @@
-body {
-  background-image: url();
+.group-image {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+.imgdad {
+  display: flex;
+  gap: 50px;
+}
+.butse4 {
+  background-color: blue;
+  color: white;
+  padding: 2px;
+}
+img {
+  width: 300px;
+  height: 150px;
+}
+.khung {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.par {
+  margin: 5px 0 10px 5px;
+}
+.smalldiv {
+  background-color: white;
+  border: 1px;
+  margin: 0px 50px 10px 10px;
 }
