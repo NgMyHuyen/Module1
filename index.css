@@ -1,84 +1,67 @@
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
+.divbackgroundimg {
+  background-image: url(https://t4.ftcdn.net/jpg/04/59/51/81/360_F_459518180_nl2io7Cun06ZfWiSb5QHMaSKq3t16xEj.jpg);
+  padding: 10px;
 }
-* {
-  margin: 0;
-  padding: 0;
-  font: inherit;
-}
-img,
-picture,
-svg,
-video {
-  display: block;
-  max-width: 100%;
-}
-input,
-select,
-textarea {
-  background-color: transparent;
-  outline: none;
-}
-
-body {
-  min-height: 100vh;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1;
-}
-
-/* thform1 or index.html */
-.a {
-  background-color: aqua;
-}
-.b {
-  background-color: red;
+.imgbutton {
+  background-color: rgba(255, 182, 45, 0.91);
   color: white;
-  text-align: center;
+  margin: 0px 20px 0px 20px;
+  border-radius: 5px;
+  border-color: rgba(255, 182, 45, 0.91);
 }
-.c {
-  color: orange;
-}
-.d {
-  color: blue;
+.margintuyendung {
+  margin: 10px 50px 30px 50px;
 }
 
-.a1 {
-  background-color: rgb(250, 250, 173);
-  color: blue;
+.parent {
+  display: flex; /* Sử dụng display: flex để áp dụng layout flexbox */
+  justify-content: space-around; /* Canh giữa các phần tử con */
+  align-items: center; /* Canh dọc các phần tử con vào giữa */
+  height: 200px; /* Độ cao của parent container */
+  background-color: #f0f0f0; /* Màu nền */
 }
-.b1 {
-  background-color: aqua;
-  color: blue;
+
+.child {
+  width: 100px; /* Độ rộng của các phần tử con */
+  height: 100px; /* Độ cao của các phần tử con */
+  background-color: #ccc; /* Màu nền của các phần tử con */
+  border: 1px solid #999; /* Đường viền */
 }
-form {
-  width: 400px;
+
+.button-image {
+  background-color: #c364c375;
+  padding: 10px 40px;
+  border: none;
+  color: white;
+  display: block;
   margin: 20px auto;
 }
 
-label {
-  /* thẻ inline không xét được witdh và height, padding, margin */
-  width: 100px;
-  display: inline-block;
-
-  /* giúp cho đoạn text không bị xuống dòng  */
-  white-space: nowrap;
-  margin: 10px 0px 10px 0px;
+.heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  /* letter-spacing: khoảng cách giữa các kí tự */
+  letter-spacing: 1px;
 }
-input {
-  background-color: white;
+.desc {
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 20px 0;
 }
-
-/* bt 7 ses 4  */
-.so1 {
-  background-color: rgb(176, 176, 226);
-  color: white;
+.group-button {
+  text-align: center;
+}
+.button-plans {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.button-plans,
+.button-features {
+  background-color: #c364c375;
+  padding: 10px 40px;
   border: none;
-  margin: 5px 25px 5px 25px;
-}
-.chu1 {
   color: white;
-  background-color: black;
+  cursor: pointer;
 }
