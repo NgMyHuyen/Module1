@@ -78,3 +78,27 @@ switch (color) {
 }
 
 //
+let number = parseInt(prompt("Nhập vào số nguyên x"));
+        if (number == 0) {
+            console.log("x Có giá trị là 0");
+        } else if (number > 0) {
+            console.log("x Là số nguyên dương");
+        } else {
+            console.log("x Là số nguyên âm");
+        }
+
+
+// 
+const m = parseInt(prompt("Cân nặng (kg)"));
+      const h = parseInt(prompt("Chiều cao (m)"));
+      const bmi = m / (h * h);
+      if ((bmi < 18, 5)) console.log("Gầy");
+      else if ((18, 5 <= bmi <= 24, 9 || 18, 5 <= bmi <= 22, 9)) {
+        console.log("Bình thường");
+      } else if (bmi >= 25 || bmi >= 23) {
+        console.log("Thừa cân");
+      } else if ((25 < bmi < 29, 9 || 23 < bmi < 24, 9)) {
+        console.log("Tiền béo phì");
+      } else {
+        console.log("Béo phì");
+      }
